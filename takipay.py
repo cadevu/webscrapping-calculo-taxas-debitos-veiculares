@@ -1,8 +1,4 @@
-# São paulo
-# kleberlopeskebim@gmail.com
-# 00552340871
-# Kleber Lopes
-# 61983638888
+
 from selenium import webdriver
 import numpy_financial as npf
 from selenium.webdriver.common.by import By
@@ -41,11 +37,11 @@ def db_insert(concorrente,em1x, em2x,em3x,em4x,em5x,em6x,em7x,em8x,em9x,em10x,em
 taxas = {}
 conc = 'TAKIPAY'
 url = "https://www.takipay.com.br/"
-email = 'kleberlopeskebim@gmail.com'
-renavam = '00552340871'
+email = '*****@gmail.com'
+renavam = '******'
 first_name = 'Kleber'
-last_name = 'Lopes'
-phone = '61983638888'
+last_name = '*****'
+phone = '*****'
 
 
 con = sqlite3.connect('db_taxas.db')
